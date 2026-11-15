@@ -6,3 +6,36 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 70px;
+    background-color: #0B2E1F;
+}
+.logo img {
+    height: 45px;
+    width: auto;
+    display: block;
+}
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px; 
+
+    padding: 8px 18px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.navbar ul li a:hover {
+    color: #0B2E1F;
+    background-color: #ffc312;
+    border-color: #ffc312;
+} 
