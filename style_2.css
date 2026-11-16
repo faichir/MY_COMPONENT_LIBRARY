@@ -13,4 +13,14 @@
     padding: 10px 20px;
     font-size: 13px;
  }
- 
+ .navbar {
+    display: flex;
+    border-radius: 50px;
+    background: white;
+    margin: 18px 30px;
+    padding: 10px 12px 10px 25px;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+
+ }
