@@ -109,3 +109,9 @@ body {
     background-color: #ffc312;
     color: #0B2E1F ;
 }
+@media (max-width: 768px) {
+    .hero h1 {font-size: 42px;}
+    .nav-links { display: none;}
+    .script {display: none;}
+    .topbar { font-size : 11px; padding: 10px 15px;}
+}
