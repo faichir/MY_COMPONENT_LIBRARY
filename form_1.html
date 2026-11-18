@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zuru World - Verify</title>
+<link rel="stylesheet" href="form_1.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="logo">ZURU <span>WORLD</span></div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#">Live Verification</a></li>
+    <li><a href="#">For Insurance</a></li>
+    <li><a href="#">For Real Estate</a></li>
+    <li><a href="#">For NGOs</a></li>
+    <li><a href="#">Pricing</a></li>
+  </ul>
+  <a href="#" class="cta-btn">Verify Now</a>
+  <div class="hamburger" onclick="document.getElementById('navLinks').classList.toggle('show')">☰</div>
+</nav>
+
+<div class="form-box">
+  <h2>Request Verification</h2>
+  <p>Fill this to get a verified proof link.</p>
+
+  <form id="verifyForm">
+    <label>Full Name</label>
+    <input type="text" id="name" placeholder="Enter your name">
+
+    <label>Phone / Email</label>
+    <input type="text" id="contact" placeholder="e.g. 0712... or you@email.com">
+
+    <label>Location to Verify</label>
+    <input type="text" id="location" placeholder="e.g. Eldoret, Londiani">
+
+    <label>What do you want to verify?</label>
+    <textarea id="message" placeholder="e.g. Site visit for Optiven..."></textarea>
+
+    <p id="error" class="error"></p>
+    <p id="success" class="success"></p>
+
+    <button type="submit">Send Request</button>
+  </form>
+</div>
+
+<script src="./form_1.js"></script>
+</body>
+</html>
